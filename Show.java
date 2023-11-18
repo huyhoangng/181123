@@ -47,6 +47,16 @@ public class Show {
         if (thuong != null) {
             thuong.inPhanSo();
         }
+        Phanso ps = new Phanso(5, 9);
+
+        System.out.println("Phân số trước khi nghịch đảo:");
+        ps.inPhanSo();
+
+        // Thực hiện nghịch đảo
+        ps.nghichDao();
+
+        System.out.println("Phân số sau khi nghịch đảo:");
+        ps.inPhanSo();
     }
 
 
